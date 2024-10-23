@@ -1,0 +1,40 @@
+let nomes = ["GUSTAVO GARDASZ MOMBACH", "INGRID FRANCK BITTENCOURT MOREIRA", "João Victor cordeiro", "Jordan FRANCK BITTENCOURT MOREIRA", "Jose Henrique Milton Ganguini", "Kevin Ribeiro De Paula", "Luiza Raquel Nichetti", "Miguel olavo Dalla Costa De Souza", "Nathiely Thamires Chaves"];
+
+nomes.shift  ("GUSTAVO GARDASZ MOMBACH");
+
+//console.log (nomes);
+
+nomes.unshift ("GRAZIELI VITÓRIA OLIVEIRA MUCHINSKI FONSECA");
+
+//console.log (nomes);
+
+let novoarray = nomes.splice (1,3,"ARTUR ARAUJO SOUZA BRASIL","DIEGO ARYEL");
+
+//console.log (novoarray);
+
+let novoarray2 = nomes.splice (6);
+
+nomes.push("Miguel Dalla Costa De Souza");
+
+nomes.unshift("Nathiely Thamires Chaves");
+
+//console.log (novoarray2);
+
+//console.log (nomes);
+
+let nomes_filtrado = nomes.filter (nomes => nomes.length > 15);
+
+//console.log (nomes_filtrado);
+
+let novoarray3 = nomes.splice (1,3,"GUILHERME MOREIRA SILVEIRA", "GUSTAVO GARDASZ MOMBACH");
+
+//console.log (novoarray3);
+console.log (nomes);
+
+let novoarray4 = nomes.slice(0);
+
+let novoarray5 = nomes.splice (8,9,"Deus","Pai",);
+
+console.log (novoarray4);
+
+console.log (novoarray5);
